@@ -221,4 +221,22 @@ app.all('/api/:obj/:fun', function(req, res) {
     });
 });
 
+//////////////////////////////////////////////////////////////////////////////////////////////////
+// Handle webhook calls
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+app.all('/github/webhook/:id', function(req, res) {
+    var event = req.headers['x-github-event'];
+    try {
+        if (!webhooks[event]) {
+            return res.send(400, 'Unsupported event');
+        }
+        
+        webhooks[event](req, res);
+        
+    } catch (err) {
+        res.send(500, 'Internal Server Error');
+    }
+});
+
 module.exports = app;
