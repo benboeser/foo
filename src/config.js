@@ -90,4 +90,8 @@ module.exports = {
     client: {
         gacode: process.env.GACODE
     }
+    
+    test: {
+        value: 'ReviewNinja'
+    }
 };
