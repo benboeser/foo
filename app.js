@@ -16,6 +16,6 @@ global.io = require('socket.io').listen(server).sockets;
 
 io.on('connection', function(socket) {
     socket.emit('init', {
-        message: 'Welcome to ReviewNinja!'
+        message: 'Welcome everyone!'
     });
 });
