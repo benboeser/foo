@@ -12,7 +12,7 @@ server = http.createServer(app).listen(config.server.localport).on('listening', 
 // Initialize websockets
 //////////////////////////////////////////////////////////////////////////////////////////////
 
-global.io = require('socket.io').listen(server).sockets;
+global.io = require('socket.io').listen(server).sockets
 
 io.on('connection', function(socket) {
     socket.emit('init', {
