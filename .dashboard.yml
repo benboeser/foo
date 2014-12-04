@@ -4,7 +4,7 @@ branches:
   - feature/one
   - feature/seven
 stats:
-  - users:
+  users:
     - url: http://review-ninja-staging.cfapps.io/count/user
-  - stars:
+  stars:
     - url: http://review-ninja-staging.cfapps.io/count/star
