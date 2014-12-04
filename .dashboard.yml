@@ -1,4 +1,5 @@
 logo: https://octodex.github.com/images/daftpunktocat-guy.gif
+delay: 1
 branches:
   - master
   - feature/one
