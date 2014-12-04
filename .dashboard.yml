@@ -5,6 +5,6 @@ branches:
   - feature/seven
 stats:
   - url: http://review-ninja-staging.cfapps.io/count/user
-    icon: octicon octicon-organization
+    icon: octicon octicon-organization text-primary
   - url: http://review-ninja-staging.cfapps.io/count/star
-    icon: octicon octicon-star
+    icon: octicon octicon-star text-primary
