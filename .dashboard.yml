@@ -3,3 +3,8 @@ branches:
   - master
   - feature/one
   - feature/seven
+stats:
+  users:
+    - url: http://review-ninja-staging.cfapps.io/count/user
+  stars:
+    - url: http://review-ninja-staging.cfapps.io/count/star
