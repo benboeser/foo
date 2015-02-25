@@ -1,4 +1,4 @@
-foo test
+foo test blah blah
 ===
 
 TechEd
