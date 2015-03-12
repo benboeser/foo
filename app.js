@@ -1,7 +1,7 @@
 var http = require('http');
 
 //////////////////////////////////////////////////////////////////////////////////////////////
-// Initialize server
+// Initialize server blah blah blah
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 var app = require('./src/server/app.js');
@@ -9,13 +9,13 @@ var app = require('./src/server/app.js');
 server = http.createServer(app).listen(config.server.localport).on('listening', function() {});
 
 //////////////////////////////////////////////////////////////////////////////////////////////
-// Initialize websockets
+/  / Initialize websockets
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 global.io = require('socket.io').listen(server).sockets;
 
 io.on('connection', function(socket) {
     socket.emit('init', {
-        message: 'Welcome to ReviewNinja!'
+        message: 'Welcome everyone!'
     });
 });

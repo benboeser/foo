@@ -1,0 +1,10 @@
+logo: https://octodex.github.com/images/daftpunktocat-guy.gif
+branches:
+  - master
+  - feature/one
+  - feature/seven
+stats:
+  - url: http://review-ninja-staging.cfapps.io/count/user
+    icon: octicon octicon-organization
+  - url: http://review-ninja-staging.cfapps.io/count/star
+    icon: octicon octicon-star
