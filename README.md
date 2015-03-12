@@ -1,7 +1,7 @@
 foo
 ===
 
-test
+test2
 TechEd
 =======
 A little "review" nodejs server for our little demo.
